@@ -1,0 +1,54 @@
+body {
+}
+
+p {
+    line-height: 160%;
+    font-size: 1em;
+}
+
+.bigsection {
+    margin-bottom: 2em;
+}
+
+.smallsection {
+    margin: 0.2em;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 5px;
+}
+
+.circle_btn {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    color: #F00;
+    border-radius: 50%;
+}
+
+.radius_btn {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    color: #F00;
+    border-radius: 20%;
+}
+
+.mix_btn {
+    width: 100px;
+    height: 100px;
+    color: #F00;
+    border-radius: 20%;
+    border-style: dotted solid double dashed;
+}
+
+

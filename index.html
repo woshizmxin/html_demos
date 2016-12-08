@@ -3,33 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
 
-<div id="app">
-    {{ message }}
+<div class="box">
+    <h1>klfdsjkldfsj</h1>
 </div>
-<script type="text/javascript" src="static/js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="static/js/ajax.js"></script>
+<br>
 
-<script>
+<div class="box">
+    <h1>flex弹性布局justify-content属性实现元素水平居中</h1>
 
-    var app2 = new Vue({
-        el: '#app',
-        data: {
-            message: 'You loaded this page on ' + new Date()
-        }
-    });
+    <h1>flex弹性布局justify-content属性实现元素水平居中</h1>
 
-    $(document).ready(function () {
-        var jsonData = {"productId": 100};
-        jsonData = JSON.stringify(jsonData);
-        url = "http://localhost/dxwx/restApi/ItemProduct.php";
-        data = ajaxdata(url, 'POST', jsonData);
-        app2.message = JSON.stringify(data);
-    })
+    <h1>flex弹性布局justify-content属性实现元素水平居中</h1>
+</div>
+<br>
 
-</script>
+
+<div class="flexbox-container">
+    <div>Blah blah</div>
+    <div>垂直居中</div>
+</div>
+
+<br>
+
+<div style="text-align: center;background-color: #0BB20C;width: 10em;height: 10em">
+    居中
+</div>
+
+<br>
+
+<div style="text-align: center;vertical-align: middle;width: 20em;height: 20em;background-color: #0BB20C">
+    <div style="display: inline-block"> mid</div>
+</div>
+<br>
+
+<div style="background-color: #3cc51f;width: 20em;height: 20em;display: inline">
+    同一行(display: inline)
+</div>
+<div style="display: inline">这是同一行</div>
+
+<br>
+
+
+<div style="display: flex;flex-direction: column;justify-content: center;height: 10em;background-color: #0BB20C">
+    <div> adskfjkd</div>
+</div>
+<div style="display: flex;flex-direction: column;justify-content:center;align-items: center;height: 10em;background-color: #0BB20C">
+    <div> adskfjkd</div>
+</div>
+
+<br>
+
+<div style="background-color: #0BB20C;float: left;">
+    <p>it's a good idea!</p>
+</div>
+
+<div style="display: flex;justify-content:center;background-color: red;clear: both;">
+    <div>
+        <p>it's a good idea!</p>
+    </div>
+</div>
+
+<div style="background-color: #0BB20C;text-align: center;">
+    <p style="float: left;">it's a good idea!</p>
+</div>
+
+<div style="text-align: center; background-color: #0BB20C;clear: both"> 
+    <ul style="display: inline-block;"> 
+        <li style="float: left">Home</li>
+         
+    </ul>
+     
+</div>
+
+
 </body>
 </html>

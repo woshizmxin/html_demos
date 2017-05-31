@@ -1,74 +1,159 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=750px,target-densitydpi=device-dpi,user-scalable=no">
 <head>
-    <meta charset="utf-8" />
-    <title>Default Examples</title>
+    <meta charset="UTF-8">
+    <title>1</title>
     <style>
-        form {
+        * {
+            padding: 0;
             margin: 0;
         }
-        textarea {
-            display: block;
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            position: relative;
+        }
+
+        .handle {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 98px;
+            width: 100%;
+            background-color: orange;
+            text-align: center;
+            color: #fff;
+            font-size: 22px;
+        }
+
+        .handle .home {
+            float: left;
+            height: 100%;
+            width: 120px;
+            padding-top: 60px;
+            margin-left: 40px;
+            box-sizing: border-box;
+            background: url(static/images/home.png) center 15px no-repeat;
+        }
+
+        .handle .record_list {
+            display: inline-block;
+            height: 100%;
+            width: 120px;
+            background: url(static/images/strategy.png) center 15px no-repeat;
+            padding-top: 60px;
+            box-sizing: border-box;
+        }
+
+        .handle .mine {
+            float: right;
+            height: 100%;
+            width: 120px;
+            padding-top: 60px;
+            margin-right: 40px;
+            background: url(static/images/mine.png) center 15px no-repeat;
+            box-sizing: border-box;
+        }
+
+        .homebody {
+            overflow-x: hidden;
+            overflow-y: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding-bottom: 98px;
+        }
+
+        .homebody p {
+            text-align: center;
+            border: solid 1px green;
+            font-size: 5em;
         }
     </style>
-    <link rel="stylesheet" href="static/plugins/kindeditor-4.1.10/themes/default/default.css" />
-    <script charset="utf-8" src="static/plugins/kindeditor-4.1.10/kindeditor-min.js"></script>
-    <script charset="utf-8" src="static/plugins/kindeditor-4.1.10/lang/zh_CN.js"></script>
-    <script>
-        var editor;
-        KindEditor.ready(function(K) {
-            editor = K.create('textarea[name="content"]', {
-                allowFileManager : true,
-                urlType : "domain"
-            });
-            K('input[name=getHtml]').click(function(e) {
-                alert(editor.html());
-            });
-            K('input[name=isEmpty]').click(function(e) {
-                alert(editor.isEmpty());
-            });
-            K('input[name=getText]').click(function(e) {
-                alert(editor.text());
-            });
-            K('input[name=selectedHtml]').click(function(e) {
-                alert(editor.selectedHtml());
-            });
-            K('input[name=setHtml]').click(function(e) {
-                editor.html('<h3>Hello KindEditor</h3>');
-            });
-            K('input[name=setText]').click(function(e) {
-                editor.text('<h3>Hello KindEditor</h3>');
-            });
-            K('input[name=insertHtml]').click(function(e) {
-                editor.insertHtml('<strong>插入HTML</strong>');
-            });
-            K('input[name=appendHtml]').click(function(e) {
-                editor.appendHtml('<strong>添加HTML</strong>');
-            });
-            K('input[name=clear]').click(function(e) {
-                editor.html('');
-            });
-        });
-    </script>
 </head>
 <body>
-<h3>默认模式</h3>
-<form>
-    <textarea name="content" style="width:800px;height:400px;visibility:hidden;">KindEditor</textarea>
-    <p>
-        <input type="button" name="getHtml" value="取得HTML" />
-        <input type="button" name="isEmpty" value="判断是否为空" />
-        <input type="button" name="getText" value="取得文本(包含img,embed)" />
-        <input type="button" name="selectedHtml" value="取得选中HTML" />
-        <br />
-        <br />
-        <input type="button" name="setHtml" value="设置HTML" />
-        <input type="button" name="setText" value="设置文本" />
-        <input type="button" name="insertHtml" value="插入HTML" />
-        <input type="button" name="appendHtml" value="添加HTML" />
-        <input type="button" name="clear" value="清空内容" />
-        <input type="reset" name="reset" value="Reset" />
-    </p>
-</form>
+<div class="homebody">
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+
+    <p>离离原上草</p>
+</div>
+<footer class="handle">
+    <a class="home" href="{tp#:U('Index/index')}">主页</a>
+    <a class="record_list" href="{tp#:U('Index/record_list_all')}">往期回顾</a>
+    <a class="mine" href="{tp#:U('ucenter/index')} ">我</a>
+</footer>
 </body>
 </html>

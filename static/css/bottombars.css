@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.handle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 98px;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.handle .home {
+    float: left;
+    height: 100%;
+    width: 120px;
+    padding-top: 60px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    background: url(../images/home.png) center 15px no-repeat;
+}
+
+.handle .record_list {
+    display: inline-block;
+    height: 100%;
+    width: 120px;
+    background: url(../images/strategy.png) center 15px no-repeat;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.handle .mine {
+    float: right;
+    height: 100%;
+    width: 120px;
+    padding-top: 60px;
+    margin-right: 40px;
+    background: url(../images/mine.png) center 15px no-repeat;
+    box-sizing: border-box;
+}
+
+.handle a{
+    text-decoration:none;
+    color: white;
+}
+
+.homebody {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 98px;
+}
+
+
+li {
+    text-align: center;
+    border: solid 20px white;
+}
+
+li img{
+    width: 100%;
+}
+
+li a{
+    color: #0BB20C;
+    text-decoration:none;
+    font-size: 3em;
+}

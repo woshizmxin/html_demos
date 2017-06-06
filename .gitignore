@@ -1,1 +1,7 @@
 .idea/
+gp/dest/
+gp/node_modules/
+gulp/node_modules/
+gulp/rev/
+gulp/dist/
+wp_shichuanzhi/node_modules/

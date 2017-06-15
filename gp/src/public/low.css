@@ -2,6 +2,10 @@
 
 body {
 }
+
+div{
+    background: url("../images/test.jpg");
+}
 .head0,.head,.hdbtnl,.hdbtnr { height:93px; }
 .hdbtnl,.hdbtnr2 { line-height:93px; }
 .listhd { top:93px; }
